@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="header">
+		<div class="top">
+			<ul class="left">
+				<li><a href="#">免费注册</a></li>
+				<li class="login"><a href="#">登陆</a></li>
+				<li><a href="#">收藏</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="#">在线咨询</a></li>
+				<li class="shouji"><a href="#">手机版</a></li>
+				<li><a href="#">icon</a></li>
+			</ul>
+		</div>
+		
+	</div>
+<div class="logo">
+			<div class="logo-img">
+				<img src="images/12.png">
+				<span>时尚奢品&nbsp;&nbsp;限时折扣</span>
+			</div>
+			<div class="sreach">
+				<input type="text" placeholder="秋装">
+				<div class="btn-sreach">
+				</div>
+			</div>
+		</div>
+	<div class="nav">
+		<div class="nav-center">
+			<ul class="nav-ul">
+				<li><a href="">菜单1</a></li>
+				<li><a href="">菜单2</a></li>
+				<li><a href="">菜单3</a></li>
+				<li><a href="">菜单4</a></li>
+				<li><a href="">菜单5</a></li>
+				<li><a href="">菜单6</a></li>
+				<li><a href="">菜单7</a></li>
+				<li><a href="">菜单8</a></li>
+			</ul>
+			<div class="nav-right">
+				<span>图标</span><span>|</span><span>￥0.0</span>
+			</div>
+		</div>
+	</div>
+	<!--banner-->
+	<div class="banner">
+		<div class="swiper-container swiper1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide ba1"></div>
+				<div class="swiper-slide ba2"></div>
+				<div class="swiper-slide ba3"></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src='js/swiper.jquery.js'></script>
+<script type="text/javascript" src='js/swiper.min.js'></script>
+<script type="text/javascript">
+	var swiper1 = new Swiper('.swiper1', {
+		pagination: '.swiper-pagination',//生成小圆点
+		slidesPerView: 1,
+		paginationClickable: true,//可以点击小圆点
+		spaceBetween: 0,//图片之间的间距
+		loop: true//循环滚动
+	});
+</script>
+</html>

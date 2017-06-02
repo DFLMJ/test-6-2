@@ -1,0 +1,205 @@
+html,
+body,
+div,
+p,
+ul,
+li,
+ol,
+form
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.header
+{
+    width: 100%;
+    min-width: 1000px;
+
+    background-color: #efefef;
+}
+.top
+{
+    overflow: hidden;
+
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+}
+.left
+{
+    float: left;
+
+    width: 245px;
+    height: 15px;
+    margin-top: 16px;
+}
+.left li,
+.right li
+{
+    font-size: 12px;
+
+    float: left;
+
+    width: 80px;
+
+    text-align: center;
+}
+.login,
+.shouji
+{
+    height: 15px;
+
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.right
+{
+    float: right;
+
+    width: 245px;
+    height: 15px;
+    margin-top: 16px;
+}
+.logo
+{
+    width: 1000px;
+    height: 165px;
+    margin: 0 auto;
+}
+.logo > div > img
+{
+    height: 50px;
+    margin-top: 45px;
+}
+.logo-img
+{
+    float: left;
+}
+.sreach
+{
+    position: relative;
+
+    float: right;
+
+    width: 415px;
+    height: 70px;
+    margin-top: 40px;
+}
+.sreach > input
+{
+    width: 320px;
+    height: 50px;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+.btn-sreach
+{
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+    right: 31px;
+
+    width: 55px;
+    height: 58px;
+
+    background-color: red;
+}
+.nav
+{
+    width: 100%;
+    min-width: 1000px;
+    height: 50px;
+
+    background-color: #000;
+}
+.nav-center
+{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+.nav-ul
+{
+    float: left;
+}
+.nav-ul li
+{
+    line-height: 50px;
+
+    float: left;
+
+    width: 80px;
+    height: 50px;
+}
+.nav-ul li a
+{
+    color: #fff;
+}
+.nav-right
+{
+    float: right;
+
+    height: 50px;
+}
+.nav-right span
+{
+    line-height: 50px;
+
+    display: inline-block;
+
+    width: 45px;
+    height: 50px;
+
+    text-align: center;
+
+    color: #fff;
+}
+.ba1
+{
+    background-image: url(../images/banner1.jpg);
+}
+.ba2
+{
+    background-image: url(../images/banner2.jpg);
+}
+.ba3
+{
+    background-image: url(../images/banner3.jpg);
+}
+.ba1,
+.ba2,
+.ba3
+{
+    height: 500px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*重置swiper的小圆点*/
+.swiper-pagination-bullet
+{
+    display: inline-block;
+
+    width: 12px;
+    height: 12px;
+
+    opacity: 1;
+    border-radius: 100%;
+    background: #fff;
+}
+.swiper-pagination-bullet-active
+{
+    opacity: 1;
+    background: red;
+}
